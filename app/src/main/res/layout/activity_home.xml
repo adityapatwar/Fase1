@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Masukan Nama Tim!"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_margin="0dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:inputType="text"
+        android:id="@+id/edtFirstTeam"
+        android:hint="Team 1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:inputType="text"
+        android:id="@+id/edtSecondTeam"
+        android:hint="Team 2"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="next"
+        android:id="@+id/btnNext"
+        />
+
+
+
+</LinearLayout>
